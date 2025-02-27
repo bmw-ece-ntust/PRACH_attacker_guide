@@ -1,0 +1,25 @@
+# Duplicate ZX’s Thesis
+
+[](https://hackmd.io/@zhongxin/rJCEIZ-90)
+
+<aside>
+
+RACH attacker
+
+![image.png](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/image.png)
+
+</aside>
+
+[OAI UE and RAN](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/OAI%20UE%20and%20RAN%2012810098314380a7ab23f34b695e5b66.md)
+
+[MSG1 attacker](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/MSG1%20attacker%2012a1009831438022a89aedacae00632f.md)
+
+[MSG3 attacker](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/MSG3%20attacker%2012a10098314380aa8caef2bb83d366b1.md)
+
+[ZX’s Random access MSC](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/ZX%E2%80%99s%20Random%20access%20MSC%2013c10098314380b7a8bec1c48067b44e.md)
+
+[Review RACH thesis ](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/Review%20RACH%20thesis%20131100983143805cbd46f3b0255919e9.md)
+
+[RACH code mapping](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/RACH%20code%20mapping%2013f100983143800ea471f31a5dbe7e1c.md)
+
+[Fix OAI UE ssb per RO issue](Duplicate%20ZX%E2%80%99s%20Thesis%20128100983143803c9e94e94056b82b12/Fix%20OAI%20UE%20ssb%20per%20RO%20issue%2017a10098314380fca7fcdc1c807e1e45.md)
