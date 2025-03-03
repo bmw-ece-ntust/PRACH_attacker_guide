@@ -79,11 +79,91 @@ Here have two cases and based on two branch `develop`  and `rework_UE`
 ### Clone and  Checkout to `rework_UE` branch
 
 ```bash
-git https://github.com/Richard-yq/OAI-UE-MSG3-attacker.git
-git https://github.com/Richard-yq/OAI-UE-MSG1-attacker.git
+git clone https://github.com/Richard-yq/OAI-UE-MSG3-attacker.git
+git clone https://github.com/Richard-yq/OAI-UE-MSG1-attacker.git
 cd  <your path>
 git checkout rework_UE
 ```
+
+<aside>
+💡
+
+### **Clone the Private Repository Using SSH URL**
+
+When cloning a private repository, **always use the SSH URL** instead of HTTPS.
+
+### **Example: Clone using SSH**
+
+```bash
+
+git clone git@github.com:your-username/your-private-repo.git
+```
+
+🚫 **Do not use HTTPS (e.g., `https://github.com/...`)** because it requires manually entering your username and password. Using SSH allows automatic authentication.
+
+- How to generate SSH key
+    
+    ### Generate a New SSH Key
+    
+    Run the following command to generate an SSH key:
+    
+    ```bash
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    
+    ```
+    
+    🔹 If you are using an older version of OpenSSH that does not support ed25519, use RSA instead:
+    
+    ```bash
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    
+    ```
+    
+    🔹 After executing the command:
+    
+    - You will be prompted to enter a file location (press **Enter** to save it as `~/.ssh/id_ed25519` or `~/.ssh/id_rsa`).
+    - You will be asked to enter a passphrase (optional but recommended for added security).
+    
+    ---
+    
+    ### Add the SSH Key to GitHub
+    
+    Retrieve your SSH public key by running:
+    
+    ```bash
+    cat ~/.ssh/id_ed25519.pub
+    
+    ```
+    
+    (If using RSA, run `cat ~/.ssh/id_rsa.pub` instead.)
+    
+    - Copy the output, which starts with `ssh-ed25519` or `ssh-rsa`.
+    - Open **GitHub** → Click on your profile picture (top right) → **Settings**.
+    - In the left menu, go to **SSH and GPG keys** → Click **New SSH key**.
+    - Enter a title (e.g., "My Laptop") and paste the copied SSH key into the **Key** field.
+    - Click **Add SSH key**.
+    
+    ---
+    
+    ### Test the SSH Connection
+    
+    Run the following command in your terminal:
+    
+    ```bash
+    ssh -T git@github.com
+    
+    ```
+    
+    If successful, you should see a message like this:
+    
+    ```
+    Hi your-github-username! You've successfully authenticated, but GitHub does not provide shell access.
+    
+    ```
+    
+    This confirms that your SSH key has been successfully added.
+    
+</aside>
 
 ### Install ASN.1
 
